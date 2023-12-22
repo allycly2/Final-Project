@@ -52,3 +52,25 @@
 .empty {
   background-color: #f8f8f8;
 }
+
+td {
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.date-box {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.date {
+  font-size: 14px;
+}
+
+.date-label {
+  font-size: 10px;
+  color: gray;
+}
