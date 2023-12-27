@@ -1,41 +1,54 @@
-.App {
-  display: flex;
-  margin: 0 5%;
+body {
+  background-color: #f1e9d9;
+  box-sizing: border-box;
+  margin: 0;
 }
 
-.top-navigation-bar {
+.App {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0px;
-  width: 100%;
-  background-color: #476796;
-  padding: 20px;
-  z-index: 1;
-  text-align: center;
+  height: 100vh;
 }
 
 h1 {
   color: #fff;
 }
 
-.logo {
-  height: 50px;
-  padding: 0 2%;
-}
-
 .navBar-container {
-  display: flex;
-  margin-top: 150px;
-  flex-grow: 1;
-  padding: 0 5%;
+  background-color: #c2a38f;
+  max-height: 100%;
+  padding: 8%;
 }
 
 .calendar-container {
   display: flex;
-  margin-top: 150px;
-  flex-grow: 1;
+  justify-content: flex-end;
+  padding: 0 5%;
+  overflow: visible !important;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.view-button {
+  display: flex;
+  justify-content: flex-start;
+  margin: 4%;
+}
+
+.view-button button {
+  margin: 0 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  color: #744827;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 10px;
+  width: 10%;
+}
+
+.view-button :hover {
+  background-color: #c2a38f;
 }
