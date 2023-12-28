@@ -17,19 +17,18 @@ h1 {
 .navBar-container {
   background-color: #c2a38f;
   max-height: 100%;
-  padding: 8%;
+  padding: 3%;
 }
 
 .calendar-container {
-  display: flex;
-  justify-content: flex-end;
-  padding: 0 5%;
-  overflow: visible !important;
+  display:contents;
+  justify-content: center;
+
 }
 
 .main {
-  display: flex;
-  flex-direction: column;
+margin: 3%;
+width: 100%;
 }
 .view-button {
   display: flex;
