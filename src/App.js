@@ -1,5 +1,5 @@
 import React from "react";
-import Calendar from "./Calendar";
+import Calendar from "./components/Calendar";
 import NavBar from "./NavBar";
 import "./Calendar.css";
 import "./App.css";
@@ -11,10 +11,6 @@ function App() {
         <NavBar />
       </div>
       <div className="main">
-        <div className="view-button">
-          <button>Month</button>
-          <button>Year</button>
-        </div>
         <div className="calendar-container">
           <Calendar />
         </div>
