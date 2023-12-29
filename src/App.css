@@ -30,7 +30,9 @@ width: 100%;
 :root {
   --fc-border-color:  #744827;
   --fc-daygrid-event-dot-width: 5px;
+  color:  #744827;
 }
+
 .fc .fc-col-header-cell {
   background-color: #74482742;
 }
